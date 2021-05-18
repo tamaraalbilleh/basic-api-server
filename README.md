@@ -92,8 +92,104 @@
   }
 
   ```
-  - Endpoint: `/food`
-  - Adds on the food Objects stored 
+  - Endpoint: `/clothes`
+  - Adds on the clothes Objects stored 
+
+  ```
+
+  {
+    "id": "21dd7d1c-4bc1-4dd8-8677-9d0cd213d614",
+    "data": {
+        "name": "hat",
+        "price": "10"
+    },
+
+    {
+    "id": "21dd7d1c-4bc1-4dd8-8677-9d0cd213d614",
+    "data": {
+        "name": "scarf",
+        "price": "5"
+    },
+
+    {
+    "id": "21dd7d1c-4bc1-4dd8-8677-9d0cd213d614",
+    "data": {
+        "name": "pants",
+        "price": "6"
+    }
+  }
+
+  ```
+- Endpoint: `/clothes`
+  - Gets the clothes Objects stored
+
+  ```
+
+  {
+    "id": "21dd7d1c-4bc1-4dd8-8677-9d0cd213d614",
+    "data": {
+        "name": "hat",
+        "price": "10"
+    },
+
+    {
+    "id": "21dd7d1c-4bc1-4dd8-8677-9d0cd213d614",
+    "data": {
+        "name": "scarf",
+        "price": "5"
+    }
+  }
+
+  ```
+- Endpoint: `/clothes/21dd7d1c-4bc1-4dd8-8677-9d0cd213d614`
+  - Gets the clothes Objects stored according to id
+
+  ```
+
+  {
+    "id": "21dd7d1c-4bc1-4dd8-8677-9d0cd213d614",
+    "data": {
+        "name": "hat",
+        "price": "10"
+    }
+
+  }
+  
+  ```
+- Endpoint: `/clothes/21dd7d1c-4bc1-4dd8-8677-9d0cd213d614`
+  - Gets the clothes Objects stored and Updates it according to id
+  > ```"name": "socks","price": "10"  ```
+  
+  
+
+  ```
+
+  {
+    "id": "21dd7d1c-4bc1-4dd8-8677-9d0cd213d614",
+    "data": {
+        "name": "socks",
+        "price": "10"
+    }
+  }
+
+  ```
+  - Endpoint: `/clothes/21dd7d1c-4bc1-4dd8-8677-9d0cd213d614`
+  - Gets the clothes Objects stored and Deletes it according to id
+
+  ```
+
+  {
+    {
+    "id": "21dd7d1c-4bc1-4dd8-8677-9d0cd213d614",
+    "data": {
+        "name": "scarf",
+        "price": "5"
+    }
+  }
+
+  ```
+  - Endpoint: `/clothes`
+  - Adds on the clothes Objects stored 
 
   ```
 
@@ -114,7 +210,7 @@
     {
     "id": "21dd7d1c-4bc1-4dd8-8677-9d0cd213d614",
     "data": {
-        "name": "chocolate",
+        "name": "pants",
         "price": "6"
     }
   }
